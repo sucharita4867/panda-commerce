@@ -64,9 +64,6 @@ li a {
       border-radius: 20px;
 }
 
-/* .banner-text-container {
-      border: 2px solid red; */
-/* } */
 
 .banner-img {
       width: 402px;
@@ -123,7 +120,7 @@ li a {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border: 2px solid black;
+      margin-top: 15px;
 }
 
 .categories-card-watch {
@@ -149,13 +146,13 @@ li a {
 
 .categories-card-bag {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
-      gap: 40px;
+      gap: 65px;
       /* Linear */
       background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%, rgb(255, 19, 111) 99.994%);
       border-radius: 10px;
-      padding: 16px 40px;
+      padding: 16px 50px;
 }
 
 .categories-card-shoes {
@@ -166,4 +163,10 @@ li a {
       background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%, rgb(63, 7, 248) 74.29%);
       border-radius: 10px;
       padding: 16px 40px;
+}
+
+/* Shoes section style */
+.shoes-heading {
+      font-size: 36px;
+      font-weight: 600;
 }
