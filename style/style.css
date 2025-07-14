@@ -114,6 +114,7 @@ li a {
       font-size: 36px;
       font-weight: 600;
       color: #1F1F1F;
+      padding-top: 10px;
 }
 
 .categories-card-container {
@@ -166,7 +167,83 @@ li a {
 }
 
 /* Shoes section style */
-.shoes-heading {
+.main-section {
+      background: rgb(244, 244, 244);
+}
+
+.Shoes-section {
+      margin-top: 70px;
+}
+
+.shoes-heading-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.shoes-title {
       font-size: 36px;
       font-weight: 600;
+      color: #1F1F1F;
+
+}
+
+.see-all {
+      text-decoration: none;
+      font-size: 20px;
+      color: #FF9D00;
+}
+
+.shoes-1 {
+      width: 280px;
+      height: 190px;
+}
+
+.shoes-card-container {
+      display: flex;
+      gap: 20px;
+}
+
+.shoes-card {
+      background-color: white;
+      border-radius: 20px;
+      padding: 24px 20px;
+}
+
+.shoes-card-title {
+      margin-top: 18px;
+      color: #1F1F1F;
+      text-align: center;
+}
+
+.shoes-card-description {
+      margin-top: 10px;
+      margin-bottom: 13px;
+      color: #4E4E4E;
+      text-align: center;
+}
+
+.shoes-card-sub-title {
+      color: #000000;
+      text-align: center;
+      margin-bottom: 14px;
+}
+
+.shoes-btn-container {
+      text-align: center;
+}
+
+.shoes-btn {
+      padding: 14px 28px;
+      border-radius: 6px;
+      background: rgb(0, 0, 0);
+      border: none;
+      text-align: center;
+}
+
+.shoes-card-title-1 {
+      margin-top: 18px;
+      color: #1F1F1F;
+      font-size: 23px;
+      text-align: center;
 }
